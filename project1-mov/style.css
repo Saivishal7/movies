@@ -1,0 +1,157 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+.button {
+  height: 100vh;              /* Full screen height */
+  display: flex;
+  justify-content: center;    /* Horizontal center */
+  align-items: center;        /* Vertical center */
+}
+
+.button a {
+  text-decoration: none;
+  padding: 15px 30px;
+  background-color: #ff0000;
+  color: white;
+  font-size: 18px;
+  border-radius: 6px;
+  font-family: "Poppins", sans-serif;
+  transition: 1s ease-in;
+}
+.button a:hover{
+  background-color: #e97507;
+}
+
+
+
+div .pic{
+  width: 100vh;
+  height: 900px;
+  background-image: url(ChatGPT\ Image\ Dec\ 27\,\ 2025\,\ 11_42_46\ PM.png);
+}
+/* img{
+  width: 100%;
+  height: 900px;
+} */
+body {
+  /* padding-top: 150px; same as nav height */
+  
+  margin: 0;
+  min-height: 100vh;
+  background-image: url("ChatGPT\ Image\ Dec\ 27\,\ 2025\,\ 11_42_46\ PM.png");
+  background-size: cover;        /* Fills screen */
+  background-position: center;   /* Center image */
+  background-repeat: no-repeat;
+  background-attachment: fixed;  /* Smooth scrolling effect */
+  font-family: "Poppins", sans-serif;
+
+
+}
+nav{
+  height: 150px;
+  background-color: rgba(228, 90, 20, 0.9);
+   font-family: "Poppins", sans-serif;
+   /* position: fixed; */
+   /* position: absolute; */
+  position: fixed;   /* key change */
+  top: 0;            /* stick to top */
+  left: 0;
+  width: 100%;       /* full width */
+  z-index: 0;
+}
+nav h1{
+  text-align: center;
+  padding-top: 10px;
+  transition: all 1.5s ease;
+
+}
+nav h1:hover{
+font-size: 35px;
+transition: 1s;
+
+}
+nav ul{
+  margin-top: 45px;
+  
+}
+a{
+  text-decoration: none;
+}
+nav ul li{
+  display: inline;
+  background-color: rgb(237, 255, 40,0.8);
+  font-size: 17px;
+
+  margin-right: 135px;
+  margin-left: 75px;
+  padding: 5px;
+  border-radius: 12px;
+  transition: all 1.5s ease;
+  color: black;
+  
+}
+nav ul li:hover{
+  background-color: rgb(237, 255, 40,1);
+  transition: 1s;
+  font-weight:700px ;
+  font-size: 22px;
+  color: red;
+ 
+  /* transition-timing-function: 1s; */
+  /* transition:  1s ease-in-out; */
+  border-radius:15px ;
+}
+.msg{
+  text-align: center;
+  font-size: 12px;
+  margin-top: 2px;
+}
+.fmovies,.popmovies,.netmirror,.onemovies,.uflixmovies{
+  text-align: center;
+  margin: 40px;
+  font-size: 32px;
+  color: red;
+  /* text-decoration: underline ; */
+  font-weight: 90px;
+  /* border: 5px solid rgb(181, 62, 62); */
+}
+
+
+
+.fmovies-label,.fmovies-label,.netmirror-label,.onemovies-label,.uflixmovies-label {
+  font-size: 18px;
+  font-weight: 600;
+  color: #e50914; /* Netflix red */
+  display: block;
+  margin-bottom: 8px;
+  letter-spacing: 5px;
+}
+
+.fmovies input[type="text"],.popmovies input[type="text"],.netmirror input[type="text"],.onemovies input[type="text"],.uflixmovies input[type="text"] {
+  width: 40%;
+  padding: 10px 12px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Input focus effect */
+.fmovies input[type="text"],.popmovies input[type="text"],.netmirror input[type="text"],.onemovies input[type="text"],.uflixmovies input[type="text"]:focus {
+  border-color: #e50914;
+  box-shadow: 0 0 5px rgba(229, 9, 20, 0.5);
+}
+button{
+  padding: 10px;
+background-color: rgba(240, 120, 30, 0.7);
+transition: 0.7s;
+border-radius: 15px;
+}
+button:hover{
+  background-color: rgb(236, 227, 232);
+  border-radius: 9px;
+}
+ 
