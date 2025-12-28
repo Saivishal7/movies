@@ -29,7 +29,7 @@
 div .pic{
   width: 100vh;
   height: 900px;
-  background-image: url(ChatGPT\ Image\ Dec\ 27\,\ 2025\,\ 11_42_46\ PM.png);
+  background-image: url(banner.png);
 }
 /* img{
   width: 100%;
@@ -155,3 +155,4 @@ button:hover{
   border-radius: 9px;
 }
  
+
